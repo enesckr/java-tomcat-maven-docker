@@ -13,7 +13,7 @@ pipeline {
                   expression { params.ENV_NAME =='DeployL1_L2_L3'}
                   }
              steps {
-                    echo "helllo"
+                    echo "hello"
                }
         }
         
