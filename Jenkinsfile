@@ -9,7 +9,7 @@ pipeline {
     stages {
 	    stage('Checkout') {           	
             steps {
-             git branch: "${params.BRANCH}", url: 'https://github.com/enesckr/test-tomcat-maven.git'
+             git branch: "${params.BRANCH}", url: 'https://github.com/enesckr/java-tomcat-maven-docker.git'
 		
             }
         }
